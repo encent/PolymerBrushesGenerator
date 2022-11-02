@@ -7,7 +7,7 @@ from typing import Optional
 
 import numpy as np
 
-from BrushGenerator import BrushGenerator
+from PBG.BrushGenerator import BrushGenerator
 
 
 class KremerGrestBrushGenerator(BrushGenerator):

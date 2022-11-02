@@ -4,7 +4,7 @@ Plots the grafting surface using Matplotlib, and checks for over-density.
 """
 import matplotlib.pyplot as plt
 
-from KremerGrestBrushGenerator import KremerGrestBrushGenerator
+from PBG.KremerGrestBrushGenerator import KremerGrestBrushGenerator
 
 chain_length = 100
 density = 0.25  # sigma^-2

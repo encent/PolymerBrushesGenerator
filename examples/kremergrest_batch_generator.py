@@ -4,7 +4,7 @@ and grafting density from a list.
 Checks for over-density.
 """
 
-from KremerGrestBrushGenerator import KremerGrestBrushGenerator
+from PBG.KremerGrestBrushGenerator import KremerGrestBrushGenerator
 
 # List of tuples of  (n, gd)
 entries = [

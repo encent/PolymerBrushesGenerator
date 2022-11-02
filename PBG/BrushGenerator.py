@@ -10,7 +10,7 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from PoissonDiskGenerator import PoissonDiskGenerator
+from PBG.PoissonDiskGenerator import PoissonDiskGenerator
 
 
 class BrushGenerator(ABC):

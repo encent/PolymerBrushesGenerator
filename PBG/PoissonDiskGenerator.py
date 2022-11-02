@@ -1,4 +1,5 @@
 """
+Forked from https://github.com/Compizfox/MDBrushGenerators
 Exports the PoissonDiskGenerator class.
 """
 
@@ -49,7 +50,7 @@ class PoissonDiskGenerator:
 					coord = grid_lookup[x][y]
 					if coord is not None:
 						dist = (point - coord)**2
-						if dist[0] + dist[1] < bead_size:
+						if dist[0] + dist[1] < bead_size ** 2:  # bead_size or bead_size ** 2 ?
 							return True
 
 			return False

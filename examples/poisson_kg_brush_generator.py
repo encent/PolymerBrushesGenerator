@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-
-from PolydisperseKGBrushGenerator import PoissonKGBrushGenerator
+from PBG.PolydisperseKGBrushGenerator import PoissonKGBrushGenerator
 
 chain_length = 100
 density = 0.25  # sigma^-2
